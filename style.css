@@ -1,0 +1,184 @@
+.home-page-title {
+    text-align:center;
+    margin-top:75px;
+    margin-bottom:50px;
+}
+
+.btn-outline-tiertary {
+    color: white;
+    border:2px solid #e78200;
+    border-color: #e78200;
+}
+
+.btn-outline-tiertary:hover {
+    color: #fff;
+    background-color: #e78200;
+    border:2px solid #e78200;
+    border-color: #e78200;
+}
+
+.index-table .table-primary th {
+    font-size:20px;
+}
+
+.jumbotron-dark {
+    background-image: url("images/foule.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    position:relative;
+    z-index:-2;
+}
+
+.jumbotron-dark .dark-filter {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.jumbotron-dark h1, .jumbotron-dark p {
+    color:#fdf6e3;
+}
+
+.jumbotron-dark hr {
+    border-color:#fdf6e3;
+}
+
+.jumbotron-light {
+    background-image: url("images/tracteur.jpg");
+    background-size:cover;
+    background-position:100% 63%;
+    background-repeat: no-repeat;
+    position:relative;
+    z-index:-2;
+}
+
+.jumbotron-light .dark-filter {
+    background-color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.jumbotron-light h1, .jumbotron-light p {
+    color:#073642;
+}
+
+.jumbotron-light hr {
+    border-color:#073642;
+}
+
+.list-organism .list-element-index ul, .list-organism .list-element ul {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.profile .card .img-profile {
+    height:400px; 
+    widows: 100%;
+    background-image: url("images/profil.jpg");
+    background-position:100% 23%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.profile .card .card-title {
+    font-size:25px;
+    color:white;
+}
+
+.profile .card .card-text {
+    font-size:18px; 
+    color:#fdf6e3;
+}
+
+.profile .card .list-group .list-group-item {
+    color:#fdf6e3;
+}
+
+.profile .card .list-group .list-group-item .element-present {
+    color:#839496;
+}
+
+.participants {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+.participants .card {
+    flex: 0 0 33.3333%;
+}
+
+.event {
+    text-align:left;
+}
+
+.event .card .img-event {
+    height:500px; 
+    widows: 100%;
+    background-image: url("images/meeting.jpg");
+    background-position:100% 23%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.event .card .card-header {
+    color:#fdf6e3;
+}
+
+.event .card .list-group .list-group-item, .event .card .card-text {
+    color:#fdf6e3;
+}
+
+.event .card .element-present {
+    color:#839496;
+}
+
+.commentaires .list-group h5 {
+    color:#fdf6e3;
+    font-size:15px;
+}
+
+.commentaires .list-group > div {
+    margin-top:2px;
+    margin-bottom:2px;
+}
+
+.commentaires .list-group .element-present {
+    color:#839496;
+    font-size:12px;
+}
+
+.commentaires .list-group p {
+    font-size:20px;
+}
+
+.footer {
+    background-color:#073642;
+    color:white;
+}
+
+.footer .row {
+    text-align:center;
+}
+
+.footer .row a i {
+    color:#009bbe;
+    cursor:pointer;
+}
+
+.footer .footer-copyright {
+    background-color:#042129;
+}
+
+.footer .footer-copyright a {
+    color:#009bbe;
+}
